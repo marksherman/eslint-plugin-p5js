@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-p5js",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Environment globals for p5.js",
   "keywords": [
     "eslint",
