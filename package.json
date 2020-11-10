@@ -1,0 +1,29 @@
+{
+  "name": "eslint-plugin-p5js",
+  "version": "0.0.0",
+  "description": "Environment globals for p5.js",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "p5",
+    "p5js",
+    "p5.js"
+  ],
+  "author": "Mark Sherman",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "mocha": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
