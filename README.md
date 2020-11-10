@@ -19,23 +19,27 @@ $ npm install eslint-plugin-p5js --save-dev
 
 ## Usage
 
-Add `p5js` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix. Then add the environment `p5js/p5` to the env section:
+Add `p5js` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix. Then add the environment `p5js/p5` to the env section. To add the exception for `setup`, `draw`, and other functions that don't get explicitly called, add `plugin:p5js/p5` to the extends section. All of these additions are shown here:
 
 ```json
 {
     "plugins": [
         "p5js"
-    ]
+    ],
 
     "env": {
         "browser": true,
         "es2021": true,
         "p5js/p5": true
-    }
-
+    },
     
+    "extends": [
+        "plugin:p5js/p5"
+    ]
 }
 ```
+
+This plugin does not provide any linting rules (other than `no-unused-vars`, which it only does to add an exception to that rule). You'll need an additional plugin or configuration to add rules to lint, like `eslint:recommended` or `eslint-config-standard`. 
 
 ## Example
 Before:
