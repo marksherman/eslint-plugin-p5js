@@ -10,7 +10,11 @@
     "p5js",
     "p5.js"
   ],
-  "author": "Mark Sherman",
+  "author": "Mark Sherman <profmarksherman@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marksherman/eslint-plugin-p5js.git"
+  },
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha tests --recursive"
@@ -25,5 +29,9 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marksherman/eslint-plugin-p5js/issues"
+  },
+  "homepage": "https://github.com/marksherman/eslint-plugin-p5js"
 }
