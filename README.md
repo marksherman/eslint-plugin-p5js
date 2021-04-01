@@ -34,12 +34,13 @@ Add `p5js` to the plugins section of your `.eslintrc` configuration file. You ca
     },
     
     "extends": [
+        "eslint:recommended",
         "plugin:p5js/p5"
     ]
 }
 ```
 
-This plugin does not provide any linting rules (other than `no-unused-vars`, which it only does to add an exception to that rule). You'll need an additional plugin or configuration to add rules to lint, like `eslint:recommended` or `eslint-config-standard`. 
+This plugin does not provide any linting rules (other than `no-unused-vars`, which it only does to add an exception to that rule). You'll need an additional plugin or configuration to add rules to lint, like `eslint:recommended` or `eslint-config-standard`. The former is included in the above example.
 
 ## Example
 Before:
