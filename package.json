@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-p5js",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "Environment globals for p5.js",
   "keywords": [
     "eslint",
@@ -20,12 +20,13 @@
     "test": "mocha tests --recursive"
   },
   "devDependencies": {
+    "chai": "^4.3.6",
     "eslint": "^7.23.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.3.1",
-    "mocha": "^7.2.0"
+    "mocha": "^9.2.1"
   },
   "engines": {
     "node": ">=0.10.0"
